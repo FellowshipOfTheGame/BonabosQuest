@@ -9,7 +9,7 @@ enum Directions {
 	RIGHT
 }
 
-public class move : MonoBehaviour {
+public class PlayerMovement : MonoBehaviour {
 	private Rigidbody2D player;
 	private Animator anim;
 
@@ -55,7 +55,7 @@ public class move : MonoBehaviour {
 			anim.SetInteger("faceDirection", (int) Directions.IDLE);
 		}
 
-
+		player.transform.position = new Vector2 (Mathf.Clamp (player.transform.position.x, -9.5f, 9.5f), Mathf.Clamp (player.transform.position.y, -4f, 4f));
 	}
 
 	void Flip(){

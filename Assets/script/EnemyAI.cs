@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class AI : MonoBehaviour {
+public class EnemyAI : MonoBehaviour {
 	private GameObject player;
 	private Rigidbody2D enemy;
 
