@@ -1,15 +1,15 @@
 fileFormatVersion: 2
-guid: 5df65a9e5c32b6a4986b84775734c7f6
-timeCreated: 1436823892
+guid: 18f12b9edfc4f45449eaa0f65552871b
+timeCreated: 1439069661
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: RunSide_0
-    21300002: RunSide_1
-    21300004: RunSide_2
-    21300006: RunSide_3
-    21300008: RunSide_4
-    21300010: RunSide_5
+    21300000: RunRight_0
+    21300002: RunRight_1
+    21300004: RunRight_2
+    21300006: RunRight_3
+    21300008: RunRight_4
+    21300010: RunRight_5
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -55,7 +55,7 @@ TextureImporter:
   buildTargetSettings: []
   spriteSheet:
     sprites:
-    - name: RunSide_0
+    - name: RunRight_0
       rect:
         serializedVersion: 2
         x: 0
@@ -65,7 +65,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: RunSide_1
+    - name: RunRight_1
       rect:
         serializedVersion: 2
         x: 21
@@ -75,7 +75,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: RunSide_2
+    - name: RunRight_2
       rect:
         serializedVersion: 2
         x: 42
@@ -85,7 +85,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: RunSide_3
+    - name: RunRight_3
       rect:
         serializedVersion: 2
         x: 63
@@ -95,7 +95,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: RunSide_4
+    - name: RunRight_4
       rect:
         serializedVersion: 2
         x: 84
@@ -105,7 +105,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: RunSide_5
+    - name: RunRight_5
       rect:
         serializedVersion: 2
         x: 105
