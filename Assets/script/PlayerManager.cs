@@ -9,12 +9,13 @@ enum Directions {
 	RIGHT
 }
 
-public class PlayerMovement : MonoBehaviour {
+public class PlayerManager : MonoBehaviour {
 	private Rigidbody2D player;
 	private Animator anim;
 
 	public float maxSpeed = 10f;
-	int faceDirection = (int) Directions.IDLE; 
+	public GameObject prefab;
+	public int faceDirection = (int) Directions.IDLE; 
 
 	void Start () {
 		player = GetComponent<Rigidbody2D>();
@@ -50,6 +51,13 @@ public class PlayerMovement : MonoBehaviour {
 		}
 		*/
 		player.transform.position = new Vector2 (Mathf.Clamp (player.transform.position.x, -9.5f, 9.5f), Mathf.Clamp (player.transform.position.y, -4f, 4f));
+	}
+
+	void Update(){
+		if(Input.GetKey (KeyCode.Space)) {
+			CriadorEspada C = new CriadorEspada (this);
+			C.criar ();
+		}
 	}
 
 	void Flip(){
